@@ -1,0 +1,12 @@
+package main;
+
+public class MainProgram {
+
+	public static void main(String[] args) {
+		java.io.Console theConsole = System.console();
+		if (theConsole != null) {
+			theConsole.printf("Hello, World!\n");
+		}
+	}
+
+}
